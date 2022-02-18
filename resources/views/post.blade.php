@@ -4,8 +4,8 @@
 <link rel="stylesheet" href="/app.css">
 <body>
     <article>
-<h1><?= echo $post->title;?></h1>
-<div> <?= echo $post->body;?></div>
+<h1><?=  $post->title;?></h1>
+<div> <?=  $post->body;?></div>
     </article>
     <a href="/">Go Back</a>
 </body>
